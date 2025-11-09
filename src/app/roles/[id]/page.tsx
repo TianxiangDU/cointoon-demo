@@ -1,5 +1,3 @@
-'use client';
-
 import Layout from '@/components/Layout';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -20,6 +18,13 @@ interface Role {
   holders: number;
   price: string;
   change_24h: string;
+}
+
+// 生成静态路径
+export async function generateStaticParams() {
+  return rolesData.map((role) => ({
+    id: role.id,
+  }));
 }
 
 // 页面组件
@@ -111,10 +116,6 @@ export default function RoleDetail({ params }: { params: { id: string } }) {
                   alt={role.name}
                   fill
                   className="object-cover"
-                  onError={(e) => {
-                    const target = e.target as HTMLImageElement;
-                    target.src = '/images/placeholder.png';
-                  }}
                 />
                 {/* 价格变化标签 */}
                 <div className={`absolute top-4 right-4 px-3 py-2 rounded-full text-sm font-semibold ${
@@ -282,10 +283,6 @@ export default function RoleDetail({ params }: { params: { id: string } }) {
                       alt={otherRole.name}
                       fill
                       className="object-cover"
-                      onError={(e) => {
-                        const target = e.target as HTMLImageElement;
-                        target.src = '/images/placeholder.png';
-                      }}
                     />
                   </div>
                   <div className="p-4">

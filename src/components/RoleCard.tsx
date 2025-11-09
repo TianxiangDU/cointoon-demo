@@ -1,5 +1,3 @@
-'use client';
-
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -38,11 +36,6 @@ export default function RoleCard({ role }: RoleCardProps) {
             width={192}
             height={192}
             className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-105"
-            onError={(e) => {
-              // 如果图片加载失败，显示占位符
-              const target = e.target as HTMLImageElement;
-              target.src = '/images/placeholder.png';
-            }}
           />
         </div>
         
