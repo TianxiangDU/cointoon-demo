@@ -1,0 +1,58 @@
+[
+  {
+    "id": "miku",
+    "name": "初音未来",
+    "symbol": "MIKU",
+    "creator": "LunaDraws",
+    "description": "最具人气的虚拟歌姬角色，拥有独特的青绿色双马尾和甜美的声音。",
+    "rolecoin_url": "https://pump.fun/MIKU",
+    "nft_url": "https://opensea.io/assets/ethereum/0x12345/1",
+    "image": "/images/miku.svg",
+    "marketcap": "12.3K USD",
+    "holders": 243,
+    "price": "0.0045 SOL",
+    "change_24h": "+12.5%"
+  },
+  {
+    "id": "zero",
+    "name": "蕾姆",
+    "symbol": "ZERO",
+    "creator": "ArtByK",
+    "description": "可爱而坚强的异世界女仆，拥有蓝色短发和忠诚的内心。",
+    "rolecoin_url": "https://pump.fun/ZERO",
+    "nft_url": "https://opensea.io/assets/ethereum/0x67890/1",
+    "image": "/images/zero.svg",
+    "marketcap": "8.1K USD",
+    "holders": 180,
+    "price": "0.0032 SOL",
+    "change_24h": "+8.2%"
+  },
+  {
+    "id": "naruto",
+    "name": "鸣人",
+    "symbol": "NRTO",
+    "creator": "NinjaArt",
+    "description": "永不放弃的忍者，拥有九尾狐的力量和成为火影的梦想。",
+    "rolecoin_url": "https://pump.fun/NRTO",
+    "nft_url": "https://opensea.io/assets/ethereum/0x11111/1",
+    "image": "/images/naruto.svg",
+    "marketcap": "15.7K USD",
+    "holders": 320,
+    "price": "0.0058 SOL",
+    "change_24h": "+15.3%"
+  },
+  {
+    "id": "sailor",
+    "name": "美少女战士",
+    "symbol": "MOON",
+    "creator": "MoonArtist",
+    "description": "代表月亮消灭邪恶的正义战士，拥有美丽的金色长发。",
+    "rolecoin_url": "https://pump.fun/MOON",
+    "nft_url": "https://opensea.io/assets/ethereum/0x22222/1",
+    "image": "/images/sailor.svg",
+    "marketcap": "9.8K USD",
+    "holders": 195,
+    "price": "0.0038 SOL",
+    "change_24h": "+6.7%"
+  }
+]

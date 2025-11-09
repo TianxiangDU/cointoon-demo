@@ -1,0 +1,49 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景渐变 -->
+  <defs>
+    <linearGradient id="sailorBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ED64A6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F687B3;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="sailorHair" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FBD38D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F6E05E;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="400" height="400" fill="url(#sailorBg)"/>
+  
+  <!-- 头部轮廓 -->
+  <ellipse cx="200" cy="180" rx="75" ry="85" fill="#FFE4C4"/>
+  
+  <!-- 长发 -->
+  <path d="M125 140 Q200 120 275 140 Q275 250 200 260 Q125 250 125 140" fill="url(#sailorHair)"/>
+  
+  <!-- 双髻 -->
+  <circle cx="160" cy="130" r="20" fill="url(#sailorHair)"/>
+  <circle cx="240" cy="130" r="20" fill="url(#sailorHair)"/>
+  
+  <!-- 刘海 -->
+  <path d="M150 150 Q200 130 250 150 Q200 160 150 150" fill="url(#sailorHair)"/>
+  
+  <!-- 月亮标志 -->
+  <path d="M190 120 Q200 110 210 120 Q200 130 190 120" fill="#F6E05E"/>
+  
+  <!-- 眼睛 -->
+  <ellipse cx="175" cy="175" rx="10" ry="15" fill="#2B6CB0"/>
+  <ellipse cx="225" cy="175" rx="10" ry="15" fill="#2B6CB0"/>
+  <ellipse cx="175" cy="172" rx="4" ry="5" fill="#FFFFFF"/>
+  <ellipse cx="225" cy="172" rx="4" ry="5" fill="#FFFFFF"/>
+  
+  <!-- 嘴巴 -->
+  <ellipse cx="200" cy="195" rx="6" ry="3" fill="#E53E3E"/>
+  
+  <!-- 水手服装饰 -->
+  <rect x="170" y="220" width="60" height="30" fill="#FFFFFF" rx="5"/>
+  <rect x="175" y="225" width="50" height="20" fill="#2B6CB0" rx="3"/>
+  
+  <!-- MOON 文字 -->
+  <text x="200" y="320" text-anchor="middle" fill="#FFFFFF" font-family="Arial Black" font-size="32" font-weight="bold">MOON</text>
+  <text x="200" y="350" text-anchor="middle" fill="#FFFFFF" font-family="Arial" font-size="16">美少女战士</text>
+</svg>

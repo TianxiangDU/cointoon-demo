@@ -1,0 +1,42 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景渐变 -->
+  <defs>
+    <linearGradient id="mikuBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00D4AA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#39C5BB;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mikuHair" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#39C5BB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00D4AA;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="400" height="400" fill="url(#mikuBg)"/>
+  
+  <!-- 头部轮廓 -->
+  <ellipse cx="200" cy="180" rx="80" ry="90" fill="#FFE4C4"/>
+  
+  <!-- 双马尾 -->
+  <ellipse cx="120" cy="140" rx="25" ry="60" fill="url(#mikuHair)" transform="rotate(-30 120 140)"/>
+  <ellipse cx="280" cy="140" rx="25" ry="60" fill="url(#mikuHair)" transform="rotate(30 280 140)"/>
+  
+  <!-- 刘海 -->
+  <path d="M140 120 Q200 100 260 120 Q200 140 140 120" fill="url(#mikuHair)"/>
+  
+  <!-- 眼睛 -->
+  <ellipse cx="175" cy="165" rx="8" ry="12" fill="#2D3748"/>
+  <ellipse cx="225" cy="165" rx="8" ry="12" fill="#2D3748"/>
+  <ellipse cx="175" cy="162" rx="3" ry="4" fill="#FFFFFF"/>
+  <ellipse cx="225" cy="162" rx="3" ry="4" fill="#FFFFFF"/>
+  
+  <!-- 嘴巴 -->
+  <path d="M190 190 Q200 200 210 190" stroke="#E53E3E" stroke-width="2" fill="none"/>
+  
+  <!-- 领带/装饰 -->
+  <rect x="190" y="220" width="20" height="30" fill="#2B6CB0" rx="3"/>
+  
+  <!-- MIKU 文字 -->
+  <text x="200" y="320" text-anchor="middle" fill="#FFFFFF" font-family="Arial Black" font-size="32" font-weight="bold">MIKU</text>
+  <text x="200" y="350" text-anchor="middle" fill="#FFFFFF" font-family="Arial" font-size="16">初音未来</text>
+</svg>

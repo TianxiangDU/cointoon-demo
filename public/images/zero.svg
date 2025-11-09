@@ -1,0 +1,42 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景渐变 -->
+  <defs>
+    <linearGradient id="zeroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3182CE;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#63B3ED;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="zeroHair" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4299E1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#90CDF4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="400" height="400" fill="url(#zeroBg)"/>
+  
+  <!-- 头部轮廓 -->
+  <ellipse cx="200" cy="180" rx="75" ry="85" fill="#FFE4C4"/>
+  
+  <!-- 短发 -->
+  <path d="M125 130 Q200 110 275 130 Q275 200 200 210 Q125 200 125 130" fill="url(#zeroHair)"/>
+  
+  <!-- 刘海 -->
+  <path d="M150 140 Q200 120 250 140 Q200 150 150 140" fill="url(#zeroHair)"/>
+  
+  <!-- 眼睛 -->
+  <ellipse cx="175" cy="170" rx="10" ry="15" fill="#2D3748"/>
+  <ellipse cx="225" cy="170" rx="10" ry="15" fill="#2D3748"/>
+  <ellipse cx="175" cy="167" rx="4" ry="5" fill="#FFFFFF"/>
+  <ellipse cx="225" cy="167" rx="4" ry="5" fill="#FFFFFF"/>
+  
+  <!-- 嘴巴 -->
+  <ellipse cx="200" cy="195" rx="8" ry="4" fill="#E53E3E"/>
+  
+  <!-- 女仆装饰 -->
+  <rect x="180" y="220" width="40" height="20" fill="#FFFFFF" rx="5"/>
+  <rect x="185" y="225" width="30" height="10" fill="#2B6CB0" rx="2"/>
+  
+  <!-- ZERO 文字 -->
+  <text x="200" y="320" text-anchor="middle" fill="#FFFFFF" font-family="Arial Black" font-size="32" font-weight="bold">ZERO</text>
+  <text x="200" y="350" text-anchor="middle" fill="#FFFFFF" font-family="Arial" font-size="16">蕾姆</text>
+</svg>
