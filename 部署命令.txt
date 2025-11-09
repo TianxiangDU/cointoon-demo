@@ -1,0 +1,53 @@
+# 🚀 CoinToon Demo 部署命令
+
+## 📋 准备工作
+1. 先在 GitHub 上创建仓库：https://github.com/TianxiangDU/cointoon-demo
+2. 确保仓库是 Public 的（免费部署）
+
+## 💻 执行命令
+
+### 1. 确保在正确目录
+cd /Users/dutianxiang/Desktop/cointoon/cointoon-demo
+
+### 2. 推送到 GitHub（远程仓库已配置）
+git push -u origin main
+
+### 3. 如果推送失败，尝试强制推送
+git push -u origin main --force
+
+### 4. 检查推送状态
+git status
+git log --oneline
+
+## 🌐 Vercel 部署
+
+### 方法一：网页部署（推荐）
+1. 访问：https://vercel.com
+2. 使用 GitHub 登录
+3. 点击 "New Project"
+4. 选择 "TianxiangDU/cointoon-demo"
+5. 点击 "Deploy"
+
+### 方法二：CLI 部署
+npm install -g vercel
+vercel login
+vercel --prod
+
+## 🎯 预期结果
+
+部署成功后获得链接：
+- 主链接：https://cointoon-demo.vercel.app
+- GitHub：https://github.com/TianxiangDU/cointoon-demo
+
+## 🔧 如果遇到问题
+
+### 网络问题
+- 尝试使用 VPN
+- 或者直接在 GitHub 网页上传文件
+
+### 权限问题  
+- 确保 GitHub 仓库已创建
+- 检查仓库是否为 Public
+
+### 构建问题
+- 本地先运行 npm run build 确保无错误
