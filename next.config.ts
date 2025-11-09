@@ -6,8 +6,9 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/cointoon-demo' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/cointoon-demo/' : '',
+  basePath: '/cointoon-demo',
+  assetPrefix: '/cointoon-demo/',
+  distDir: 'out',
 };
 
 export default nextConfig;
